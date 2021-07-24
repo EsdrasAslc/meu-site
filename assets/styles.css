@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,500&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0rem;
+    border: 0rem;
+    padding:0rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+/* Nav bar */
+
+    #navbar {
+        background-color: rgba(27,27,27,1);
+    }
+
+    #navbar ul {
+        list-style: none;
+    }
+
+    #navbar ul a {
+        color: #fff;
+        text-decoration: none;
+        font-style: none;
+        font-family: sans-serif
+    }
+
+/* Apresentação */
+
+    #inicio {
+        background-color: #fff;
+    }
+
+    #inicio h1 {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        color:black;
+    }
+
+    #inicio p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color:rgb(0, 0, 0);
+    }
+
+    #inicio img {
+        border-radius: 5%;
+    }
+/* Projetos */
+
+    #projetos {
+        background-color: rgba(225,223,219,1);
+    }
+
+    #projetos h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        color:black;
+    }
+
+    .projeto h3 {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 300;
+    }
+
+    .projeto img {
+        border-radius: 5%;
+    }
+
+    .projeto p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+/* Redes */
+
+    #redes h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        color:black;
+    }
+
+    #redes ul {
+        list-style-type:none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    #redes ul a {
+        color:black
+    }
+
+    #redes .email a {
+        color: black;
+    }
+    /* Celular media */
+
+    @media all and (max-width: 415px) {
+   
+    /* Nav Bar */
+
+    #navbar ul {
+        display: flex;
+        text-align: center;
+        padding: 2rem 0 2rem;
+    }
+
+    #navbar a {
+        padding: 2rem;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+   /* Apresentação */
+
+    #inicio {
+        margin: 3.5rem; 
+    }
+    
+    #inicio h1 {
+        display: block;
+        font-size: 3.5rem;
+    }
+
+    #inicio p {
+        margin-top: 4.5rem;
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    #inicio .seg-p {
+        margin-top:2.5rem;
+        font-size: 1.8rem;
+    }
+
+    #inicio img {
+        display: block;
+        max-width: 95%;
+        margin: auto;
+    }
+
+    /* Projetos */
+
+    #projetos {
+        padding: 3.5rem;
+    }
+
+    #projetos h2 {
+        text-align: center;
+        margin-bottom: 3.5rem;
+    }
+
+    .projeto img {
+        max-width: 95%;
+        margin: auto;
+    }
+
+    .projeto h3 {
+        margin-top: 4.5rem;
+        text-align: center;
+        margin-bottom: 2.5rem;
+        font-size: 2.5rem;
+    }
+    
+    .projeto p {
+        font-size:1.75rem;
+        margin-bottom: 2.25rem;
+    }
+
+    /* Redes Sociais */
+
+    #redes {
+        margin-top: 2.25rem;
+    }
+    
+    #redes h2 {
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    #redes ul {
+        font-size: 1.9rem;
+        margin-left: 1.5rem;
+    }
+
+    #redes ul li {
+        margin-top: 1.5rem;
+    }
+
+    #redes .icone {
+        width: 2.5rem;
+    }
+
+    #redes .email {
+        margin-top: 2.5rem;
+        text-align: center;
+    }
+
+    #redes .email p {
+        margin-top: 1rem;
+    }
+}
