@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -100,7 +101,34 @@ body {
     #redes .email a {
         color: black;
     }
-    /* Celular media */
+
+    /* Footer */
+
+    #footer {
+        background-color: rgba(225,223,219,1);
+        border-top: solid 0.2rem rgba(0, 0, 0, 0.5) ;
+    }
+    
+    #footer h3 {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        font-size: small;
+    }
+
+    #footer div {
+        font-size: small;
+    }
+
+    #footer a {
+        font-size: small;
+        text-decoration: none;
+        color: black;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif ;
+    }
+
+/* Celular media */
 
     @media all and (max-width: 415px) {
    
@@ -174,6 +202,7 @@ body {
         margin-bottom: 2.25rem;
     }
 
+
     /* Redes Sociais */
 
     #redes {
@@ -206,5 +235,11 @@ body {
     #redes .email p {
         margin-top: 1rem;
         margin-bottom: 4.5rem;
+    }
+
+    /* Footer */
+
+    #footer {
+        text-align: center;
     }
 }
