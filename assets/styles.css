@@ -130,7 +130,7 @@ body {
 
 /* Celular media */
 
-    @media all and (max-width: 415px) {
+    @media all and (max-width: 767px) {
    
     /* Nav Bar */
 
@@ -243,3 +243,137 @@ body {
         text-align: center;
     }
 }
+
+/* Tablet & Celular grandes*/
+    @media all and (min-width: 768px) and (max-width: 1024px) {
+
+        /* Nav Bar */
+
+        #navbar ul {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 2rem 0 2rem;
+        }
+
+        #navbar a {
+            font-size: 1.7rem;
+            padding: 2rem 1.25rem 2rem ;
+        }
+
+        #navbar a:hover {
+            background-color: rgba(102, 102, 102, 0.445);
+            transition: all 300ms ease-in-out;
+        }
+
+        /* Apresentação */
+
+        #inicio {
+            margin: 3.5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+
+        #inicio h1 {
+            font-size: 3.5rem;
+        }
+
+        #inicio p {
+            margin-top: 4.5rem;
+            font-size: 2rem;
+            margin-bottom: 2.5rem;
+            max-width: 450px;
+        }
+
+        #inicio .seg-p {
+            margin-top:2.5rem;
+            font-size: 1.8rem;
+        }
+
+        #inicio img {
+            margin:auto;
+            max-width: 40%;
+            height: 50%;
+            padding: 1rem;
+        }
+
+        /* PROJETOS */
+
+        #projetos h2 {
+            display: block;
+            padding-top: 3.5rem;
+            margin: 3.5rem;
+            text-align: center;
+            margin-top: 0rem;
+        }
+
+        #container-projetos {
+            display: flex;
+            flex-flow: wrap row;
+            justify-content: center;
+        }
+
+        #container-projetos .projeto {
+            flex: 1 0 256px;
+            display: flex;
+            flex-direction: column;
+            margin: 0 1rem;
+            padding: 2rem;
+        }
+
+        #container-projetos .projeto h3 {
+            text-align: center;
+            margin: 2.5rem;
+            font-size: 2.3rem;
+        }
+
+        #container-projetos .projeto img {
+            width: 40rem;
+            margin: auto;
+        }
+
+        #container-projetos .projeto p {
+            padding-bottom: 3.75rem;
+        }
+
+        /* REDES SOCIAIS */
+
+        #redes h2 {
+            display: block;
+            padding-top: 3.5rem;
+            margin: 3.5rem;
+            text-align: center;
+            margin-top: 0rem;
+        }
+
+        #redes article {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        #redes article ul  {
+            display: flex;
+            flex-direction: column;
+            margin: 2.5rem;
+        }
+
+        #redes .icone {
+            max-width: 2rem;
+        }
+
+        #redes .email h3 {
+            padding-right: 1rem;
+        }
+
+        #redes .email {
+            padding-bottom: 2.7rem;
+        }
+
+        /* FOOTER */
+
+       #footer {
+           text-align: center;
+       }
+    }
