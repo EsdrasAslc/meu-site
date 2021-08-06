@@ -437,11 +437,6 @@ body {
             margin-right: 2.5rem;
         }
 
-        #inicio img:hover {
-            transition: all .5s ease-in-out;
-            box-shadow: 6px 6px 5px 0px #5f5d5d98
-        }
-
         /* Projetos */
 
         #projetos {
@@ -482,7 +477,8 @@ body {
         }
 
         #container-projetos .projeto img:hover {
-            transition: all .5s ease-in-out;
+            transition: all .25s ease;
+            cursor: pointer;
             box-shadow: 6px 6px 5px 0px #5f5d5d98
         }
 
