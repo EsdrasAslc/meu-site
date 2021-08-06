@@ -411,6 +411,127 @@ body {
         /* Apresentação */
 
         #inicio {
-            
+            display: flex;
+            height: 85vh;
+        }
+
+        #inicio article {
+            margin: 0 2.5rem 2.5rem 2.5rem;
+        }
+
+        #inicio h1 {
+            font-size: 4rem;
+            margin-bottom: 4.5rem;
+        }
+
+        #inicio p {
+            font-size: 2rem;
+        }
+
+        #inicio .seg-p {
+            margin-top: 2.5rem;
+        }
+
+        #inicio img {
+            height: 75%;
+            margin-right: 2.5rem;
+        }
+
+        #inicio img:hover {
+            transition: all .5s ease-in-out;
+            box-shadow: 6px 6px 5px 0px #5f5d5d98
+        }
+
+        /* Projetos */
+
+        #projetos {
+            height: 85vh;
+        }
+
+        #projetos h2 {
+            display: block;
+            padding-top: 3.5rem;
+            margin: 3.5rem;
+            text-align: center;
+            margin-top: 0rem;
+        }
+
+        #container-projetos {
+            display: flex;
+            flex-flow: wrap row;
+            justify-content: center;
+        }
+
+        #container-projetos .projeto {
+            flex: 1 0 25.6rem;
+            display: flex;
+            flex-direction: column;
+            margin: 0 1rem;
+            padding: 2rem;
+        }
+
+        #container-projetos .projeto h3 {
+            text-align: center;
+            margin: 2.5rem;
+            font-size: 2.3rem;
+        }
+
+        #container-projetos .projeto img {
+            width: 40rem;
+            margin: auto;
+        }
+
+        #container-projetos .projeto img:hover {
+            transition: all .5s ease-in-out;
+            box-shadow: 6px 6px 5px 0px #5f5d5d98
+        }
+
+        #container-projetos .projeto p {
+            padding-bottom: 3.75rem;
+        }
+
+        /* REDES SOCIAIS */
+
+        #redes h2 {
+            display: block;
+            padding-top: 3.5rem;
+            margin: 3.5rem;
+            text-align: center;
+            margin-top: 0rem;
+        }
+
+        #redes article {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        #redes article ul  {
+            display: flex;
+            flex-direction: column;
+            margin: 2.5rem;
+        }
+
+        #redes .icone {
+            max-width: 2rem;
+        }
+
+        #redes .email h3 {
+            padding-right: 1rem;
+        }
+
+        #redes .email {
+            padding-bottom: 2.7rem;
+        }
+        
+        /* FOOTER */
+
+       #footer {
+        text-align: center;
+        }
+
+        #footer strong a {
+            font-style: normal;
         }
     }
