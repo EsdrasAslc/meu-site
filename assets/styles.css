@@ -377,3 +377,40 @@ body {
            text-align: center;
        }
     }
+
+
+    @media all and (min-width: 1025px) {
+        /* Nav Bar */
+
+        #navbar {
+            margin-bottom: 3.5rem;
+        }
+
+        #navbar ul {
+            width: 110rem;
+            height: 5.5rem;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #navbar li {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 400;
+            padding: 1rem 5rem;
+        }
+
+        #navbar li:hover {
+            background-color: rgba(128, 128, 128, 0.13);
+            border-radius: 1rem;
+            border-bottom: solid 0.2rem wheat;
+            transition: all .5s ease-in-out;
+        }
+        
+        /* Apresentação */
+
+        #inicio {
+            
+        }
+    }
