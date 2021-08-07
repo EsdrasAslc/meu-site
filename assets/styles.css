@@ -240,7 +240,12 @@ body {
     /* Footer */
 
     #footer {
+        padding: 1rem 0;
         text-align: center;
+    }
+
+    #footer h3 {
+        padding-bottom: .75rem;
     }
 }
 
@@ -374,7 +379,12 @@ body {
         /* FOOTER */
 
        #footer {
+           padding: 1rem 0;
            text-align: center;
+       }
+
+       #footer h3 {
+           padding-bottom: .5rem;
        }
     }
 
