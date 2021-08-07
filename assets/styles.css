@@ -440,7 +440,7 @@ body {
         /* Projetos */
 
         #projetos {
-            height: 85vh;
+            min-height: 85vh;
         }
 
         #projetos h2 {
