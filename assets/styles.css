@@ -29,8 +29,8 @@ body {
     #navbar ul a {
         color: #fff;
         text-decoration: none;
-        font-style: none;
-        font-family: sans-serif
+        font-style: normal;
+        font-family: 'Roboto Mono', monospace;
     }
 
 /* Apresentação */
@@ -394,6 +394,7 @@ body {
        }
     }
 
+    /* DESKTOP */
 
     @media all and (min-width: 1025px) {
         /* Nav Bar */
@@ -411,19 +412,19 @@ body {
             align-items: center;
         }
 
-        #navbar li {
-            font-family: 'Roboto Mono', monospace;
-            font-weight: 400;
-            padding: 1rem 5rem;
-        }
-
         #navbar li:hover {
             background-color: rgba(128, 128, 128, 0.13);
             border-radius: 1rem;
             border-bottom: solid 0.2rem wheat;
             transition: all .5s ease-in-out;
         }
-        
+
+        #navbar a {
+            font-weight: 400;
+            padding: 1rem 5rem;
+            display: block;
+        }
+
         /* Apresentação */
 
         #inicio {
