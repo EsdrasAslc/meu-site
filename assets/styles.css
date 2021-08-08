@@ -182,6 +182,7 @@ body {
 
     #projetos h2 {
         text-align: center;
+        font-size: 3rem;
         margin-bottom: 3.5rem;
     }
 
@@ -210,6 +211,7 @@ body {
     }
     
     #redes h2 {
+        font-size: 3rem;
         text-align: center;
         margin-bottom: 2.5rem;
     }
@@ -310,7 +312,8 @@ body {
             margin: 3.5rem;
             text-align: center;
             margin-top: 0rem;
-                }
+            font-size: 3rem;
+            }
 
         #container-projetos {
             display: flex;
@@ -329,7 +332,7 @@ body {
         #container-projetos .projeto h3 {
             text-align: center;
             margin: 2.5rem;
-            font-size: 2.3rem;
+            font-size: 2.5rem;
         }
 
         #container-projetos .projeto img {
@@ -339,6 +342,7 @@ body {
 
         #container-projetos .projeto p {
             padding-bottom: 3.75rem;
+            font-size: 1.8rem;
         }
 
         /* REDES SOCIAIS */
@@ -349,13 +353,14 @@ body {
             margin: 3.5rem;
             text-align: center;
             margin-top: 0rem;
+            font-size: 3rem;
         }
 
         #redes article {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
 
         #redes article ul  {
@@ -369,6 +374,7 @@ body {
         }
 
         #redes .email h3 {
+            font-size: 2rem;
             padding-right: 1rem;
         }
 
