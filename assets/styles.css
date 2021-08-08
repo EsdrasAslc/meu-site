@@ -9,6 +9,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -551,4 +552,5 @@ body {
         #footer strong a {
             font-style: normal;
         }
+
     }
