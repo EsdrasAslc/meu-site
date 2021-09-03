@@ -204,6 +204,23 @@ body {
         margin-bottom: 2.25rem;
     }
 
+    #container-projetos .projeto a {
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    #container-projetos .button span {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        text-align: center;
+        padding: 1.5rem;
+        border: solid 0.3rem #000;
+    }
 
     /* Redes Sociais */
 
@@ -344,6 +361,19 @@ body {
         #container-projetos .projeto p {
             padding-bottom: 3.75rem;
             font-size: 1.8rem;
+        }
+
+        #container-projetos .projeto a {
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: none;
+        }
+
+        #container-projetos .button {
+            margin: auto;
+            padding: 1.5rem;
+            border: solid 0.3rem #000;
         }
 
         /* REDES SOCIAIS */
@@ -496,6 +526,7 @@ body {
         #container-projetos .projeto img {
             width: 40rem;
             margin: auto;
+            min-height: 22.5rem;
             transition: all ease-in-out 300ms;
         }
 
@@ -508,6 +539,23 @@ body {
         #container-projetos .projeto p {
             padding-bottom: 3.75rem;
             font-size: 1.8rem;
+        }
+
+        #container-projetos .projeto a {
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: none;
+        }
+
+        #container-projetos .button {
+            margin: auto;
+            padding: 1.5rem;
+            border: solid 0.3rem #000;
+        }
+
+        #container-projetos .em-breve {
+            cursor: not-allowed;
         }
 
         /* REDES SOCIAIS */
