@@ -39,9 +39,6 @@ body {
 
 /* Apresentação */
 
-    #inicio {
-        /* background-color: #fff; */
-    }
 
     #inicio h1 {
         font-family: 'Roboto Mono', monospace;
@@ -248,6 +245,7 @@ body {
 
     #redes .icone {
         width: 2.5rem;
+        background-color: white;
     }
 
     #redes .email {
