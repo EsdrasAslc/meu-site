@@ -5,7 +5,7 @@
 
  # 🏝️ Aprendizado
 
- **Durante o processo de produção do site, eu desevolvi as seguintes práticas;**
+ **Durante o processo de produção do site, eu desenvolvi as seguintes práticas;**
     
- * HTML ( Aperfeicoei ✔️)
- * CSS ( Aperfeicoei ✔️)
+ * HTML ( Aperfeiçoei ✔️)
+ * CSS ( Aperfeiçoei ✔️)
