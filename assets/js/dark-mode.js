@@ -8,12 +8,12 @@ const img = document.querySelectorAll('.icone');
 const footer = document.querySelector('#footer');
 const footerText = document.querySelectorAll('#footer a');
 
-document.getElementById("darkButton").addEventListener("click", myFunction);
+document.getElementById("darkButton").addEventListener("click", darkModeToggle);
 
-function myFunction() {
-    let i = body.classList.contains("dark");
+function darkModeToggle() {
+    let bgDark = body.classList.contains("dark");
 
-    if (!i) {
+    if (!bgDark) {
         body.classList.add('dark');
         document.querySelector('h1').classList.add('darkText');
         footer.classList.add('darkBg');
