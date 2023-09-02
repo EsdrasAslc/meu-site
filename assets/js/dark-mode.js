@@ -87,3 +87,30 @@ function whiteMode() {
     }
 }
 
+function getAge () {
+    const nowDate = new Date();
+    const bornDate = new Date("August 21, 2005")
+    const showAge = document.querySelector('#age');
+    let birthday 
+    let age
+
+    console.log(bornDate)
+    
+    if (nowDate.getMonth() < 7 && nowDate.getDay() < 21) {
+        birthday = false;
+    } else if (nowDate.getMonth() === 7 && nowDate.getDate() < 21 ) {
+        birthday = false;
+    } else if (nowDate.getMonth() > 7 ) {
+        birthday = true;
+    }
+    
+    if (birthday) {
+      age = nowDate.getFullYear() - bornDate.getFullYear()
+    } else {
+      age = nowDate.getFullYear() - bornDate.getFullYear() -1
+    }
+    
+    showAge.innerHTML = `${age}`
+}
+
+getAge();
